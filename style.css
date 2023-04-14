@@ -6,8 +6,10 @@
 }
 .content {
   width: 100vw;
-  height: 99vh;
+  height: 98vh;
   display: flex;
+  justify-content: flex-end;
+  gap: 20%;
   background-image: url("/images/bg-pattern-desktop.svg");
 }
 .hero {
@@ -16,12 +18,51 @@
 .desktop-left {
   text-align: start;
   margin-top: 3rem;
-  margin-left: 8rem;
+  /* margin-left: 8rem; */
 }
 .logo {
   margin-bottom: 5rem;
 }
-
 .desktop-right img {
   height: 99vh;
+}
+.text {
+  font-size: 3rem;
+  letter-spacing: .5rem;
+  margin-bottom: 1rem;
+}
+.we-are {
+  color: hsl(0, 36%, 70%);
+  font-weight: 300;
+}
+.description {
+  color: hsl(0, 36%, 70%);
+  width: 400px;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.email {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  border: 1px solid hsl(0, 36%, 70%);
+}
+.image {
+  background-color: hsl(0, 36%, 70%);
+  background: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  padding: .8rem 2.5rem;
+  border-radius: 30px;
+}
+input[type=email] {
+  color: hsl(0, 36%, 70%);
+  border: none;
+  outline: none;
+  padding: 1rem;
+  padding-right: 4rem;
+  border-radius: 30px;
+}
+::placeholder {
+  color: hsl(0, 36%, 70%);
 }
