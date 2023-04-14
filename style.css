@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.content {
+  width: 100vw;
+  height: 99vh;
+  display: flex;
+  background-image: url("/images/bg-pattern-desktop.svg");
+}
+.hero {
+  display: none;
+}
+.desktop-left {
+  text-align: start;
+  margin-top: 3rem;
+  margin-left: 8rem;
+}
+.logo {
+  margin-bottom: 5rem;
+}
+
+.desktop-right img {
+  height: 99vh;
+}
